@@ -1,0 +1,12 @@
+# Get necessary imports:
+importFrom("methods", "is")
+importFrom("parallel", "mclapply")
+importFrom("graphics", "lines", "plot")
+importFrom("stats", "approxfun", "uniroot")
+importFrom("qpcR", "pcrfit", "efficiency", "takeoff")
+
+# Export global functions:
+export(dyeFluorescence, fluorescence, calculateRn, calculateBaseline, calculateDeltaRn, calculateThreshold, calculateCt, calculateRefCt)
+export(filterRn, filterModelShape, filterBaseline, filterCt)
+export(plotFluorescence, plotRn)
+export(pcrModel, pcrModelStats, pcrModelTakeoff, pcrModelFlatPhaseEnd)

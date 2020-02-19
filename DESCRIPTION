@@ -1,0 +1,11 @@
+Package: ECMCqPCR
+Version: 0.1-2
+Date: 2017-07-10
+Title: ECMC qPCR Analysis Functions
+Authors@R: c(person(given="Alastair", family="Droop", email="A.P.Droop@leeds.ac.uk", role=c("aut", "cre")))
+Depends: R (>= 3.1)
+Imports: methods, parallel
+Depends: qpcR
+Description: Functions to allow the processing and analysis of the ECMC miRNA sample exchange project. 
+License: GPL (>= 2)
+LazyData: true
