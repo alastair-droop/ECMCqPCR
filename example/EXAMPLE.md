@@ -76,7 +76,7 @@ These raw fluorescence values can be plotted (specific wells can be selected usi
 plotFluorescence(sample.f, well="A1")
 title(main="Well A1 Raw Fluorescence")
 ~~~
-![Well A1 Raw Fluorescence](.sample-fluorescence.pdf "Well A1 Raw Fluorescence")
+![Well A1 Raw Fluorescence](./sample-fluorescence.pdf "Well A1 Raw Fluorescence")
 
 ### 4: Model the well fluorescence behaviour
 
@@ -102,7 +102,7 @@ plotRn(sample.rn, wells="A1")
 title(main="Well A1 Rn")
 ~~~
 
-![Well A1 Rn Data](./example/sample-rn.pdf "Well A1 Rn Data")
+![Well A1 Rn Data](./sample-rn.pdf "Well A1 Rn Data")
 
 ### 6: Determine the Well Baseline
 
@@ -121,7 +121,7 @@ title(main="Well A1 Rn")
 abline(v=sample.baseline["A1", c("start", "end")], col="orange")
 ~~~
 
-![Well A1 Rn Data showing baseline endpoints](./example/sample-baseline.pdf "Well A1 Rn Data showing baseline endpoints")
+![Well A1 Rn Data showing baseline endpoints](./sample-baseline.pdf "Well A1 Rn Data showing baseline endpoints")
 
 ### 7: Calculate the Card deltaRn Values
 
@@ -138,7 +138,7 @@ plotRn(sample.drn, well="A1")
 title(main="Well A1 dRn")
 ~~~
 
-![Well A1 dRn Data](./example/sample-drn.pdf "Well A1 dRn Data")
+![Well A1 dRn Data](./sample-drn.pdf "Well A1 dRn Data")
 
 ### 8: Calculate the Sample Threshold Value
 
@@ -154,7 +154,7 @@ title(main="Well A1 dRn")
 abline(h=sample.threshold, col="green4")
 ~~~
 
-![Well A1 dRn Data showing sample threshold](./example/sample-threshold.pdf "Well A1 dRn Data showing sample threshold")
+![Well A1 dRn Data showing sample threshold](./sample-threshold.pdf "Well A1 dRn Data showing sample threshold")
 
 ### 9: Calculate the Sample Ct Values
 
@@ -171,7 +171,7 @@ abline(h=sample.threshold, col="green4")
 abline(v=sample.ct["A1"], col="red4")
 ~~~
 
-![Well A1 dRn Data showing sample threshold at well Ct value](./example/sample-ct.pdf "Well A1 dRn Data showing sample threshold at well Ct value")
+![Well A1 dRn Data showing sample threshold at well Ct value](./sample-ct.pdf "Well A1 dRn Data showing sample threshold at well Ct value")
 
 ### 10: Filter Ct Values
 
