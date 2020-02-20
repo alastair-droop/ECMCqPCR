@@ -13,3 +13,7 @@ install.packages("devtools")
 # Use devtools to install marginLines:
 devtools::install_github("alastair-droop/ECMCqPCR")
 ~~~
+
+## Usage Example
+
+For a brief overview of the package use, please see [EXAMPLE.md](./example/EXAMPLE.md "Example usage").

@@ -76,7 +76,7 @@ These raw fluorescence values can be plotted (specific wells can be selected usi
 plotFluorescence(sample.f, well="A1")
 title(main="Well A1 Raw Fluorescence")
 ~~~
-![Well A1 Raw Fluorescence](https://github.com/alastair-droop/ECMCqPCR/raw/master/example/sample-fluorescence.pdf "Well A1 Raw Fluorescence")
+![Well A1 Raw Fluorescence](.sample-fluorescence.pdf "Well A1 Raw Fluorescence")
 
 ### 4: Model the well fluorescence behaviour
 
