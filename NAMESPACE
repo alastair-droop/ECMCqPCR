@@ -1,4 +1,5 @@
 # Get necessary imports:
+importFrom("utils", "read.table")
 importFrom("methods", "is")
 importFrom("parallel", "mclapply")
 importFrom("graphics", "lines", "plot")
@@ -6,6 +7,7 @@ importFrom("stats", "approxfun", "uniroot")
 importFrom("qpcR", "pcrfit", "efficiency", "takeoff")
 
 # Export global functions:
+export(wellLevels, readMulticomponent)
 export(dyeFluorescence, fluorescence, calculateRn, calculateBaseline, calculateDeltaRn, calculateThreshold, calculateCt, calculateRefCt)
 export(filterRn, filterModelShape, filterBaseline, filterCt)
 export(plotFluorescence, plotRn)

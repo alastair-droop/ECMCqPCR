@@ -1,4 +1,4 @@
-plotFluorescence <- function(x, wells=NA, col=dye.cols, ylim=NA, ...){
+plotFluorescence <- function(x, wells=NA, col=ECMCqPCR::dye.cols, ylim=NA, ...){
     if(!is(x, 'dyepair')) stop('x must be a dyepair object')
     if(missing(wells)) wells <- colnames(x$FAM)
     #Get the maximum fluorescence value:
