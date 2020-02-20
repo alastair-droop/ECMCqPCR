@@ -9,8 +9,8 @@ The `ECMCqPCR` package takes raw FAM and ROX (multicomponent) fluorescence data 
 The standard multicomponent input files are tab-delimited text files containing four columns: `well <tab> cycle <tab> ROX <tab> FAM`.  For example:
 
 ~~~
-well    cycle	ROX	FAM
-A1  1	65655.87	49503.10
+well	cycle	ROX	FAM
+A1	1	65655.87	49503.10
 A1	2	65915.59	49767.02
 A1	3	66032.81	50087.03
 A1	4	66146.13	50208.06
