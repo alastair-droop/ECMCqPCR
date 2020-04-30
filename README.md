@@ -17,3 +17,7 @@ devtools::install_github("alastair-droop/ECMCqPCR")
 ## Usage Example
 
 For a brief overview of the package use, please see [EXAMPLE.md](./example/EXAMPLE.md "Example usage").
+
+## Funding
+
+This research was supported by the ECMC Network, C318/A15586.
